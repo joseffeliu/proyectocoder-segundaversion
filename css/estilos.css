@@ -241,8 +241,10 @@ tr{
 }
 
 .qs_titulos{
+    font-size: 30px;
     padding: 10px;
     margin-top: 20px;
+    margin-bottom: 20px;
     background-color: black;
     color: silver;
     text-align: left;
@@ -251,25 +253,6 @@ tr{
     animation-iteration-count: infinite;
     animation-duration: 2s;
     animation-timing-function: linear;
-}
-
-
-.reglamento{
-    background-image: url(../../imagenes/corner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
-    margin-top: 100px;
-    margin-bottom: 25px;
-}
-
-.reglamento_secciones{
-    padding: 20px;
-}
-
-.reglamento_secciones-texto{
-    width: 75%;
-    padding: 20px 0px;
 }
 
 @keyframes tit {
@@ -285,8 +268,36 @@ tr{
 }
 
 .qs_definiciones{
-    width: 50%;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bolder;
+    width: 75%;
     padding: 20px 0px;
+}
+
+.reglamento{
+    background-image: url(../../imagenes/corner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.reglamento_secciones{
+    padding: 20px;
+    font-size: 25px;
+    font-style: italic;
+    
+}
+
+.reglamento_secciones-texto{
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 75%;
+    padding: 20px 0px;
+    
 }
 
 .torneos{
@@ -367,6 +378,31 @@ tr{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .bar{
+        
+        margin-top: 50px;
+        margin-bottom: 25px;
+        
+    }
+
+    .qs{
+        
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .reglamento{
+    
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .torneos{
+        
+        margin-top: 50px;
+        margin-bottom: 25px;
     }
 }
 

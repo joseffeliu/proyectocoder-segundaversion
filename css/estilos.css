@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.main{
+    background-image: url(../imagenes/16535843075175.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.main_titulo{    
+    font-family: 'Keania One', cursive;
+    font-family: 'Monoton', cursive; 
+    font-family: 'DynaPuff', cursive;
+    color: darkslategrey;
+    text-align: center;
+    padding: 25px;
+    font-style:oblique;
+    text-decoration:underline;
+    
+}
+
+.main_efemerides{
+    color: silver;
+    width: 60%;
+    margin: 25px;
+}
+
+.main_contacto{
+    background-color: green;
+    color: black;
+    font-weight: bolder;
+    height: 400px;
+    padding: 10px;
+    margin: 30px;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    overflow: auto;
+    box-shadow: 10px 10px 10px black;
+}
+
+.maingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:100px 300px 500px;
+    grid-template-areas: 
+    "titulo titulo"
+    "efemerides video"
+    "contacto contacto";
+}
+
+.maingrid_titulo{
+    grid-area: titulo;
+}
+
+.maingrid_efemerides{
+    grid-area: efemerides;
+}
+
+.maingrid_video{
+    grid-area: video;
+}
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+.maingrid_contacto{
+    grid-area: contacto;
+}
+
+.card{
+    background-color: grey;
+    color: black;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
+    border: solid black
+}
+
+.flex_contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mapa{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(../imagenes/corner.jpg);
+    background-size: cover;
+    z-index: 1000;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.header_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.header_menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header_menu_botones{
+    padding: 5px 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.header_icono{
+    font-size: 30px;
+    display: none;
+}
+
+.cerrado{
+    display: none;
+}
+
+.whatsapp{
+    width: 100px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0px 0px 50px;
+    padding: 5px;
+    border: solid black;
+    border-radius: 5px;
+
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url(../../imagenes/circulocentral.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo_sm{
+    margin: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+
+}
+
+.derechos{
+    padding-right: 10px;
+    color: white;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.bar{
+    background-image: url(../../imagenes/burga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    
+}
+
+.bar_opciones{
+    padding: 30px 0px;
+    color: silver;
+}
+
+.bargrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "comidas bebidas"
+    "combos";
+} 
+
+.bargrid_comidas{
+    grid-area: titulo;
+}
+
+.bargrid_bebidas{
+    grid-area: texto;
+}
+
+.bargrid_combos{
+    grid-area: videos;
+}
+
+tr{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.qs{
+    background-image: url(../../imagenes/corner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.qs_titulos{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: silver;
+    text-align: left;
+
+    animation-name: tit;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+
+.reglamento{
+    background-image: url(../../imagenes/corner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.reglamento_secciones{
+    padding: 20px;
+}
+
+.reglamento_secciones-texto{
+    width: 75%;
+    padding: 20px 0px;
+}
+
+@keyframes tit {
+    0%{
+        text-align: left;
+    }
+    50%{
+        text-align: center;
+    }
+    100%{
+        text-align: right;
+    }
+}
+
+.qs_definiciones{
+    width: 50%;
+    padding: 20px 0px;
+}
+
+.torneos{
+    background-image: url(../../imagenes/corner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.torneos_divisiones{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+    text-decoration: underline;
+}      
+
+@media screen and (max-width:1023px) {
+    
+}
+
+
+@media screen and (max-width:599px) {
+    .header_menu{
+        display: none;
+        background-color: green;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1200;
+        width: 80%;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .header_logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+
+    
+    .header_icono{
+        display: block;
+    }
+
+    .header_menu:target{
+        display: block;
+    }
+
+    .cerrado{
+        display: block;
+    }
+
+    .main{
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .whatsapp{
+        z-index: 2000;   
+    }
+
+    .maingrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "titulo"
+        "efemerides"
+        "video"
+        "contacto";
+    }
+    
+    .flex_contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+

@@ -1,0 +1,46 @@
+.qs{
+    background-image: url(../../imagenes/corner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.qs_titulos{
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: silver;
+    text-align: left;
+
+    animation-name: tit;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes tit {
+    0%{
+        text-align: left;
+    }
+    50%{
+        text-align: center;
+    }
+    100%{
+        text-align: right;
+    }
+}
+
+.qs_definiciones{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bolder;
+    width: 75%;
+    padding: 20px 0px 50px;
+}
+
+.container {
+    max-width: 100%;
+}

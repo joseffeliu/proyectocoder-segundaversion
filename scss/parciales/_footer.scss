@@ -1,0 +1,37 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url(../../imagenes/circulocentral.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px;
+    
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo_sm{
+    margin: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+
+}
+
+.derechos{
+    padding-right: 10px;
+    color: white;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bolder;
+}

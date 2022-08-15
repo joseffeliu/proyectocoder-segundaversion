@@ -1,0 +1,92 @@
+
+@media screen and (max-width:1023px) {
+    
+}
+
+
+
+
+@media screen and (max-width:599px) {
+    .header_menu{
+        display: none;
+        background-color: green;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1200;
+        width: 80%;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .header_logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+
+    
+    .header_icono{
+        display: block;
+    }
+
+    .header_menu:target{
+        display: block;
+    }
+
+    .cerrado{
+        display: block;
+    }
+
+    .main{
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .whatsapp{
+        z-index: 2000;   
+    }
+
+    .maingrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "titulo"
+        "efemerides"
+        "video"
+        "contacto";
+    }
+    
+    .flex_contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .bar{
+        
+        margin-top: 50px;
+        margin-bottom: 25px;
+        
+    }
+
+    .qs{
+        
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .reglamento{
+    
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .torneos{
+        
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+}

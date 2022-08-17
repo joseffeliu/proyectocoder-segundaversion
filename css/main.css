@@ -14,6 +14,12 @@ ul {
 p {
   margin-bottom: 0; }
 
+h1 {
+  font-family: "Keania One", cursive; }
+
+h2 {
+  font-family: "Keania One", cursive; }
+
 .header {
   display: flex;
   flex-direction: row;
@@ -55,7 +61,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../../imagenes/circulocentral.jpg);
+  background-image: url(../imagenes/circulocentral.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -90,56 +96,49 @@ footer {
   background-attachment: fixed;
   margin-top: 100px;
   margin-bottom: 25px; }
-
-.main_titulo {
-  font-family: 'Keania One', cursive;
-  font-family: 'Monoton', cursive;
-  font-family: 'DynaPuff', cursive;
-  color: darkslategrey;
-  text-align: center;
-  padding: 25px;
-  font-style: oblique;
-  text-decoration: underline; }
-
-.main_efemerides {
-  color: silver;
-  width: 60%;
-  margin: 25px; }
-
-.main_contacto {
-  background-color: green;
-  color: black;
-  font-weight: bolder;
-  height: 400px;
-  padding: 10px;
-  margin: 30px;
-  border: solid;
-  border-color: black;
-  border-radius: 5px;
-  overflow: auto;
-  box-shadow: 10px 10px 10px black; }
+  .main_titulo {
+    font-family: "Keania One", cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'DynaPuff', cursive;
+    color: darkslategrey;
+    text-align: center;
+    padding: 25px;
+    font-style: oblique;
+    text-decoration: underline; }
+  .main_efemerides {
+    color: silver;
+    width: 60%;
+    margin: 25px; }
+  .main_contacto {
+    background-color: green;
+    color: black;
+    font-weight: bolder;
+    height: 400px;
+    padding: 10px;
+    margin: 30px;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    overflow: auto;
+    box-shadow: 10px 10px 10px black; }
 
 .maingrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px 300px 500px;
   grid-template-areas: "titulo titulo" "efemerides video" "contacto contacto"; }
-
-.maingrid_titulo {
-  grid-area: titulo; }
-
-.maingrid_efemerides {
-  grid-area: efemerides; }
-
-.maingrid_video {
-  grid-area: video; }
+  .maingrid_titulo {
+    grid-area: titulo; }
+  .maingrid_efemerides {
+    grid-area: efemerides; }
+  .maingrid_video {
+    grid-area: video; }
+  .maingrid_contacto {
+    grid-area: contacto; }
 
 .video {
   width: 100%;
   height: 100%; }
-
-.maingrid_contacto {
-  grid-area: contacto; }
 
 .card {
   background-color: grey;
@@ -160,7 +159,7 @@ footer {
   height: 300px; }
 
 .qs {
-  background-image: url(../../imagenes/corner.jpg);
+  background-image: url(../imagenes/corner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
@@ -168,6 +167,7 @@ footer {
   margin-bottom: 25px; }
 
 .qs_titulos {
+  font-family: "Keania One", cursive;
   font-size: 30px;
   padding: 10px;
   margin-bottom: 20px;
@@ -198,7 +198,7 @@ footer {
   max-width: 100%; }
 
 .reglamento {
-  background-image: url(../../imagenes/corner.jpg);
+  background-image: url(../imagenes/corner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
@@ -210,6 +210,9 @@ footer {
   font-size: 25px;
   font-style: italic; }
 
+.reglamento_secciones-titulo {
+  margin-left: 1rem; }
+
 .reglamento_secciones-texto {
   color: black;
   font-size: 18px;
@@ -218,7 +221,7 @@ footer {
   padding: 20px 0px; }
 
 .torneos {
-  background-image: url(../../imagenes/corner.jpg);
+  background-image: url(../imagenes/corner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;
@@ -233,7 +236,7 @@ footer {
   text-decoration: underline; }
 
 .bar {
-  background-image: url(../../imagenes/burga.jpg);
+  background-image: url(../imagenes/burga.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;

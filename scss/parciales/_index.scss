@@ -5,39 +5,43 @@
     background-attachment: fixed;
     margin-top: 100px;
     margin-bottom: 25px;
-}
 
-.main_titulo{    
-    font-family: 'Keania One', cursive;
-    font-family: 'Monoton', cursive; 
-    font-family: 'DynaPuff', cursive;
-    color: darkslategrey;
-    text-align: center;
-    padding: 25px;
-    font-style:oblique;
-    text-decoration:underline;
+    &_titulo{    
+        font-family: $fuentepricipal;
+        font-family: 'Monoton', cursive; 
+        font-family: 'DynaPuff', cursive;
+        color: darkslategrey;
+        text-align: center;
+        padding: 25px;
+        font-style:oblique;
+        text-decoration:underline;
+        
+    }
+
+    &_efemerides{
+        color: silver;
+        width: 60%;
+        margin: 25px;
+    }
     
+    &_contacto{
+        background-color: green;
+        color: black;
+        font-weight: bolder;
+        height: 400px;
+        padding: 10px;
+        margin: 30px;
+        border: solid;
+        border-color: black;
+        border-radius: 5px;
+        overflow: auto;
+        box-shadow: 10px 10px 10px black;
+    }
 }
 
-.main_efemerides{
-    color: silver;
-    width: 60%;
-    margin: 25px;
-}
 
-.main_contacto{
-    background-color: green;
-    color: black;
-    font-weight: bolder;
-    height: 400px;
-    padding: 10px;
-    margin: 30px;
-    border: solid;
-    border-color: black;
-    border-radius: 5px;
-    overflow: auto;
-    box-shadow: 10px 10px 10px black;
-}
+
+
 
 .maingrid{
     display: grid;
@@ -47,27 +51,30 @@
     "titulo titulo"
     "efemerides video"
     "contacto contacto";
+
+    &_titulo{
+        grid-area: titulo;
+    }
+    
+    &_efemerides{
+        grid-area: efemerides;
+    }
+    
+    &_video{
+        grid-area: video;
+    }
+        
+    &_contacto{
+        grid-area: contacto;
+    }
 }
 
-.maingrid_titulo{
-    grid-area: titulo;
-}
-
-.maingrid_efemerides{
-    grid-area: efemerides;
-}
-
-.maingrid_video{
-    grid-area: video;
-}
 .video{
     width: 100%;
     height: 100%;
 }
 
-.maingrid_contacto{
-    grid-area: contacto;
-}
+
 
 .card{
     background-color: grey;

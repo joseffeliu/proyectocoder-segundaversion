@@ -1,5 +1,5 @@
 .qs{
-    background-image: url(../../imagenes/corner.jpg);
+    background-image: url(../imagenes/corner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
@@ -8,6 +8,7 @@
 }
 
 .qs_titulos{
+    font-family: $fuentepricipal;
     font-size: 30px;
     padding: 10px;
     margin-bottom: 20px;

@@ -5,13 +5,21 @@
     background-size: cover;
     margin-top: 100px;
     margin-bottom: 25px;
+
+    &_divisiones{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        padding: 20px;
+        text-decoration: underline;
+    }
+
+    &_imagenes{
+        border-radius: 40px;
+        width: 100px;
+        height: 100px;
+    }
 }
-.torneos_divisiones{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-    padding: 20px;
-    text-decoration: underline;
-}      
+
 

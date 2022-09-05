@@ -164,6 +164,7 @@ footer {
   background-image: url(../imagenes/corner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   color: black;
   margin-top: 100px;
   margin-bottom: 25px; }
@@ -204,6 +205,7 @@ footer {
   background-image: url(../imagenes/corner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   color: black;
   margin-top: 100px;
   margin-bottom: 25px; }
@@ -228,6 +230,7 @@ footer {
   background-image: url(../imagenes/corner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   margin-top: 100px;
   margin-bottom: 25px; }
   .torneos_divisiones {
@@ -237,6 +240,10 @@ footer {
     align-items: center;
     padding: 20px;
     text-decoration: underline; }
+  .torneos_tablas {
+    width: 100%;
+    height: 800px;
+    padding: 20px; }
   .torneos_imagenes {
     border-radius: 40px;
     width: 100px;
